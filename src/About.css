@@ -1,0 +1,36 @@
+.header {
+    text-align: center;
+  }
+  
+  .header-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  .skills {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skill {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 5px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+  
+  .skill:hover {
+    background-color: #ffcc00;
+    color: #333;
+  }
+  
