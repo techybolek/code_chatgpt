@@ -1,29 +1,37 @@
 .home {
     padding: 20px;
     text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background: linear-gradient(to right, #ff0000, #ff8000, #ffff00, #00ff00, #0000ff, #8000ff, #ff00ff);
     background-size: 1400% auto;
     animation: animateRainbow 5s ease-in-out infinite;
-  }
-  
-  @keyframes animateRainbow {
+    z-index: -1;
+    padding-right: 20px;
+}
+
+@keyframes animateRainbow {
     0% {
-      background-position: 0% 50%;
+        background-position: 0% 50%;
     }
+
     100% {
-      background-position: 100% 50%;
+        background-position: 100% 50%;
     }
-  }
-  
-  .home h2 {
+}
+
+.home h2 {
     margin-top: 0;
-  }
-  
-  .home p {
+}
+
+.home p {
     margin-bottom: 20px;
-  }
-  
-  .cta-button {
+}
+
+.cta-button {
     padding: 10px 20px;
     border: none;
     background-color: #333;
@@ -31,9 +39,14 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-  }
-  
-  .cta-button:hover {
+}
+
+.cta-button:hover {
     background-color: #ffcc00;
-  }
-  
+}
+
+.chuck-norris-joke {
+    background: white;
+    padding-right: 20px;
+    margin-right: 20px;
+}
