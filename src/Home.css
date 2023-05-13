@@ -1,6 +1,18 @@
 .home {
     padding: 20px;
     text-align: center;
+    background: linear-gradient(to right, #ff0000, #ff8000, #ffff00, #00ff00, #0000ff, #8000ff, #ff00ff);
+    background-size: 1400% auto;
+    animation: animateRainbow 5s ease-in-out infinite;
+  }
+  
+  @keyframes animateRainbow {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
   }
   
   .home h2 {
