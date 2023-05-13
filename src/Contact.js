@@ -12,18 +12,21 @@ function Contact() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Send email using user's local email here
-    console.log('Sending email:', formData);
-    // Clear form data after submission
-    setFormData({ name: '', email: '', message: '' });
+  const handleSendEmail = () => {
+    const subject = `Contact Form Submission from ${formData.name}`;
+    const body = `Hello ${formData.name},\n${formData.message}`;
+  
+    const mailtoLink = `mailto:${formData.email}?subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(body)}`;
+  
+    window.location.href = mailtoLink;
   };
-
+  
   return (
     <div>
       <h2>Contact Me</h2>
-      <form className="contact-form" onSubmit={handleSubmit}>
+      <form className="contact-form">
         <div className="form-group">
           <label htmlFor="name">Name</label>
           <input
@@ -56,7 +59,7 @@ function Contact() {
             required
           ></textarea>
         </div>
-        <button type="submit" className="submit-button">
+        <button type="button" className="submit-button" onClick={handleSendEmail}>
           Send
         </button>
       </form>

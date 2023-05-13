@@ -1,0 +1,47 @@
+[
+  {
+    "title": "OCR Document scanning feature",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, risus ut vulputate facilisis, ex enim gravida velit, ac vestibulum neque risus ut lectus.",
+    "image": "https://picsum.photos/400/300",
+    "links": {
+      "github": "https://github.com/yourusername/project1",
+      "demo": "https://www.example.com/project1-demo"
+    }
+  },
+  {
+    "title": "Performance Improvements",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, risus ut vulputate facilisis, ex enim gravida velit, ac vestibulum neque risus ut lectus.",
+    "image": "https://picsum.photos/400/300",
+    "links": {
+      "github": "https://github.com/yourusername/project2",
+      "demo": "https://www.example.com/project2-demo"
+    }
+  },
+  {
+    "title": "Web scraper project",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, risus ut vulputate facilisis, ex enim gravida velit, ac vestibulum neque risus ut lectus.",
+    "image": "https://picsum.photos/400/300",
+    "links": {
+      "github": "https://github.com/yourusername/project3",
+      "demo": "https://www.example.com/project3-demo"
+    }
+  },
+  {
+    "title": "Mobile app barcode scanner",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, risus ut vulputate facilisis, ex enim gravida velit, ac vestibulum neque risus ut lectus.",
+    "image": "https://picsum.photos/400/300",
+    "links": {
+      "github": "https://github.com/yourusername/project4",
+      "demo": "https://www.example.com/project4-demo"
+    }
+  },
+  {
+    "title": "This portfolio website",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, risus ut vulputate facilisis, ex enim gravida velit, ac vestibulum neque risus ut lectus.",
+    "image": "https://picsum.photos/400/300",
+    "links": {
+      "github": "https://github.com/yourusername/portfolio",
+      "demo": "https://www.example.com/portfolio-demo"
+    }
+  }
+]

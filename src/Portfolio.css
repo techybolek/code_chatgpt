@@ -1,0 +1,46 @@
+.portfolio {
+    padding: 20px;
+  }
+  
+  .project-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .project-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .project-details {
+    padding: 20px;
+  }
+  
+  .project-details h3 {
+    margin-top: 0;
+  }
+  
+  .project-details p {
+    margin-bottom: 20px;
+  }
+  
+  .project-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .project-links a:hover {
+    color: #ffcc00;
+  }
+  
