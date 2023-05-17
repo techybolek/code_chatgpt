@@ -10,7 +10,7 @@ function About() {
       <div className="content">
         <h2>About Me</h2>
         <p>
-          Hi, I'm Thomas, a software engineer at CGI. In my spare time, I enjoy training kung fu, cooking, and exploring various projects, including experimenting with ChatGPT.
+          Hi, I'm Thomas, a software engineer at XXX. In my spare time, I enjoy lorem ipsum.
         </p>
         <h2>Skills</h2>
         <ul className="skills">
@@ -28,6 +28,9 @@ function About() {
           </li>
           <li>
             <span className="skill">C++</span>
+          </li>
+          <li>
+            <span className="skill">Machine learning</span>
           </li>
         </ul>
       </div>

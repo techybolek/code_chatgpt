@@ -10,8 +10,9 @@
     background-size: 1400% auto;
     animation: animateRainbow 5s ease-in-out infinite;
     z-index: -1;
-    padding-right: 20px;
 }
+
+
 
 @keyframes animateRainbow {
     0% {
@@ -23,12 +24,17 @@
     }
 }
 
+.home .container {
+    margin-right: 40px;
+}
+
 .home h2 {
     margin-top: 0;
 }
 
 .home p {
     margin-bottom: 20px;
+    font-size: 2rem;
 }
 
 .cta-button {
